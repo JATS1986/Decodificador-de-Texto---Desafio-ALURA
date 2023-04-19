@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http equiv="X UA Compartilhe" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="vector.svg" type="image/x-icon">
+
+        <title>Decodificador e Codificador</title>
+    </head>
+
+    <body>
+
+        <main class="main container">
+            <header class="cabecalho">
+                <img src="vector.svg" alt="logo da Alura">
+                <h1>Mensagens Codificadas</h1>
+            </header>
+
+            <div class="container-input">
+
+                <div class="input">
+                    <textarea id="input-text" placeholder="Digite o texto que deseja codificar ou decoficar..."></textarea>
+                    <p class="attention">ATENÇÃO: Apenas Letras minúsculas!</p>            
+                </div>
+            
+                <div id="output">
+                    <img src="oraculo.svg" alt="imagem da representação de uma pessoa que pesquisa">
+                    <h2>Sua mensagem aparecerá aqui!</h2>
+                    <span>Após o resultado, copie o que deseja Descriptografar</span>
+                </div>
+
+            </div>
+
+            <div class="button">
+                <div class="conteiner-bnt">
+                    <button onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+                    <button onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>
+                </div>                
+            </div>
+            
+        </main>
+
+        <footer class="rodape">
+
+            <div class="icones">
+                <img src="icons8-github.svg" class="logogit">
+                <img src="icons8-linkedin.svg" class="logolinkerdin">
+            </div>
+
+            <h3>Desenvolvido por JATS</h3>
+
+        </footer>
+
+        <script src="script.js"></script>
+    </body>       
+
+</html>
