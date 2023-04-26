@@ -12,31 +12,38 @@ body {
 
 .cabecalho {
     display: flex;
-    justify-content: space-between;
-    padding: 2%;
+    padding: 1%;
 }
 
 .cabecalho h1 {
     color: blue;
-    font-size: 30px;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    margin: 2% 0 0 35%;
 }
 
 .cabecalho img {
     max-width: 50px;
     max-height: 50px;
-    width: auto;
-    height: auto;
+    margin: 0 0 0 15%;
 }
 
 .container-input {
     display: flex;
-    justify-content: space-between;
     padding: 2% 0 0 4%;
 }
 
 .container-input .input {
     width: 400px;
     height: 330px;
+    margin: 0 0 0 5%;
+}
+
+.container-input .output {
+    width: 400px;
+    height: 330px;
+    margin: 0 0 0 16%;
 }
 
 .attention {
@@ -87,23 +94,25 @@ body {
     margin-top: 4%;
 }
 
-.conteiner-bnt button{
+.conteiner-btn button{
     border: 2px solid rgb(6, 6, 112);
     border-radius: 10px;
     text-decoration: none;
     color: blue;
     width: 150px;
     height: 50px;
-    margin-left: 4%;
+    margin: 0 0 0 7%;
     cursor: pointer;
 }
 
-.conteiner-bnt button:hover {
+.conteiner-btn button:hover {
     border: 2px solid #ffffff;
+    font-size: 16px;
+    font-weight: bold;
     transition: 0.5s all;
 }
 
-.bnt-copiar {
+.btn-copiar {
     border: 2px solid rgb(6, 6, 112);
     border-radius: 10px;
     text-decoration: none;
@@ -112,7 +121,14 @@ body {
     height: 50px;
     margin-bottom: 10%;
     margin-left: 30%;
-    cursor: pointer;
+    cursor: pointer;    
+}
+
+.btn-copiar:hover {
+    border: 2px solid #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.5s all;
 }
 
 .rodape {
@@ -127,10 +143,10 @@ body {
 
 .rodape h3 {
     font-size: 20px;
+    font-weight: bold;
 }
 
 .logogit, .logolinkerdin {
-    width: 25px;
-    height: 25px;
-    color: #000000;
+    width: 35px;
+    height: 35px;
 }
